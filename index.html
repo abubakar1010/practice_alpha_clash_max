@@ -25,7 +25,7 @@
 
         <!-- home screen start here  -->
 
-        <section class="hidden">
+        <section id="homePage" class="">
 
                 <div class="flex justify-center items-center min-h-screen flex-col ">
 
@@ -33,7 +33,7 @@
 
                     <p class=" text-white text-2xl mb-10">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
 
-                    <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-12 py-4 text-center me-2 mb-2 ">Play Now</button>
+                    <button id="enterGameButton" type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-12 py-4 text-center me-2 mb-2 ">Play Now</button>
 
                 </div>
         </section>
@@ -42,7 +42,7 @@
 
         <!-- play Ground Start here  -->
 
-        <section class="hidden">
+        <section id="playGround" class="hidden">
 
             <!-- play Ground container start here  -->
 
@@ -60,7 +60,7 @@
                         <h3 class="bg-[#2F2941] text-white px-6 py-2 rounded-b-xl text-xl poppins-medium">Don't watch keyboard  while playing...</h3>
                     </div>
                     <div class="flex justify-center rounded-b-xl items-center min-h-full">
-                        <p class=" text-[#010313] px-6 py-2 rounded-b-xl text-9xl pb-6 poppins-semibold">Y</p>
+                        <p id="playScreen" class=" text-[#010313] px-6 py-2 rounded-b-xl text-9xl pb-6 poppins-semibold uppercase">Y</p>
                     </div>
 
                 </div>
@@ -80,16 +80,16 @@
 
             <div class="text-center">
 
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">Q</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">W</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">E</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">R</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">T</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">Y</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">U</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">I</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">O</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">P</kbd>
+        <kbd id="Q" class=" px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg ">Q</kbd>
+        <kbd id="W" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">W</kbd>
+        <kbd id="E" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">E</kbd>
+        <kbd id="R" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">R</kbd>
+        <kbd id="T" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">T</kbd>
+        <kbd id="Y" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">Y</kbd>
+        <kbd id="U" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">U</kbd>
+        <kbd id="I" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">I</kbd>
+        <kbd id="O" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">O</kbd>
+        <kbd id="P" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">P</kbd>
 
             </div>
 
@@ -99,15 +99,15 @@
 
                 <div class="text-center">
 
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">A</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">S</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">D</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">F</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">G</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">H</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">J</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">K</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">L</kbd>
+        <kbd id="A" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">A</kbd>
+        <kbd id="S" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">S</kbd>
+        <kbd id="D" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">D</kbd>
+        <kbd id="F" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">F</kbd>
+        <kbd id="G" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">G</kbd>
+        <kbd id="H" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">H</kbd>
+        <kbd id="J" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">J</kbd>
+        <kbd id="K" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">K</kbd>
+        <kbd id="L" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">L</kbd>
 
             </div>
 
@@ -118,13 +118,13 @@
 
             <div class="text-center">
 
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">Z</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">X</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">C</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">V</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">B</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">N</kbd>
-        <kbd class="px-5 py-2 text-xl inline-flex justify-center items-center font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-white dark:text-[#010313] dark:border-gray-500">M</kbd>
+        <kbd id="Z" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">Z</kbd>
+        <kbd id="X" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">X</kbd>
+        <kbd id="C" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">C</kbd>
+        <kbd id="V" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">V</kbd>
+        <kbd id="B" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">B</kbd>
+        <kbd id="N" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">N</kbd>
+        <kbd id="M" class="px-4 py-3 text-xl poppins-medium  text-[#010313] bg-white border border-gray-200 rounded-lg">M</kbd>
 
             </div>
 
@@ -186,7 +186,7 @@
 
         <!-- final score section start here -->
 
-        <section>
+        <section class="hidden">
 
             <div class="flex justify-center items-center min-h-screen">
                 <div class="text-center space-y-5 bg-gradient-to-r from-[#ffffff7e] to-[#98979770] px-16 py-7">
@@ -209,6 +209,8 @@
     </main>
 
     <!-- script file start here  -->
+
+    <script src="script/utility.js"></script>
 
     <script src="script/main.js"></script>
 
