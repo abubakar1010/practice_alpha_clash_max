@@ -32,10 +32,36 @@ document.addEventListener('keyup', function(event){
 
         removeBackgroundColor(expectedInput.toUpperCase())
 
+        // update user score 
 
+        const scoreValue = updateUserScore("score")
 
+        const latestScore = scoreValue + 1
+
+        const yourScore = latestScore
+
+        addUserScore("score", yourScore)
+        addUserScore("earning", yourScore)
+
+    }else{
+
+        const scoreValue = updateUserScore("chances")
+
+        const latestScore = scoreValue - 1
+
+        const yourScore = latestScore
+
+        addUserScore("chances", yourScore)
+
+        if(latestScore === 0){
+            gameOver()
+
+            addUserScore("chances", yourScore)
+        }
 
     }
+
+    
 
 
 })

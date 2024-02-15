@@ -62,3 +62,43 @@ function showElementOnScreen(){
 
     setBackgroundColor(alphabets.toUpperCase())
 }
+
+// update score 
+
+function updateUserScore(scoreId){
+
+    let currentScore = document.getElementById(scoreId)
+
+    let scoreText = currentScore.innerText
+
+    const scoreInNumber = parseInt(scoreText)
+
+    return scoreInNumber
+
+}
+
+
+//show player score
+
+function addUserScore(id, value){
+
+    const element = document.getElementById(id)
+
+    element.innerText = value
+}
+
+// game Over 
+
+function gameOver(){
+
+    enterGame("#playGround","#finalResult")
+
+}
+
+function playAgain(){
+
+    enterGame("#finalResult","#playGround")
+
+    addUserScore("score", 0)
+    addUserScore("chances", 5)
+}

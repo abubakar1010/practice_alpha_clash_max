@@ -148,7 +148,7 @@
 
                                     <img src="assets/images/spark.svg" alt="">
 
-                                    <span class="ml-3">5</span>
+                                    <span id="chances" class="ml-3">5</span>
 
                                     </button>
 
@@ -166,7 +166,7 @@
 
                                     <img src="assets/images/point.svg" alt="">
 
-                                    <span class="ml-3">0</span>
+                                    <span id="score" class="ml-3">0</span>
 
                                     </button>
 
@@ -186,7 +186,7 @@
 
         <!-- final score section start here -->
 
-        <section class="hidden">
+        <section id="finalResult" class="hidden">
 
             <div class="flex justify-center items-center min-h-screen">
                 <div class="text-center space-y-5 bg-gradient-to-r from-[#ffffff7e] to-[#98979770] px-16 py-7">
@@ -195,10 +195,10 @@
     
                     <h1>
                         <span class="text-6xl poppins-bold text-white">Score :</span>
-                        <span class="poppins-semibold text-6xl text-white">0</span>
+                        <span id="earning" class="poppins-semibold text-6xl text-white">0</span>
                     </h1>
     
-                    <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-12 py-4 text-center me-2 mb-2 ">Play Again</button>
+                    <button onclick="playAgain()" type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-12 py-4 text-center me-2 mb-2 ">Play Again</button>
     
                     <p class="text-white text-xl pt-3">Practice will make you Pro</p>
                 </div>
